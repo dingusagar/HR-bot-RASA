@@ -1,0 +1,16 @@
+language: en
+pipeline:
+- name: ConveRTTokenizer
+- name: ConveRTFeaturizer
+- name: DIETClassifier
+epochs: 200
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 100
+  - name: MappingPolicy
