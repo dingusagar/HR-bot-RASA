@@ -99,26 +99,26 @@
 - I want to join your company
 - A [technical](role_type) one
 - A [business](role_type) one
-- A [tech](role_type:technical) one
-- A [management](role_type:business) one
-- [technology](role_type:technical)
-- [tech](role_type:technical)
-- [management](role_type:business)
+- A [tech]{"entity": "role_type", "value": "technical"} one
+- A [management]{"entity": "role_type", "value": "business"} one
+- [technology]{"entity": "role_type", "value": "technical"}
+- [tech]{"entity": "role_type", "value": "technical"}
+- [management]{"entity": "role_type", "value": "business"}
 - [business](role_type)
 - Can I see some of the [business](role_type) roles?
 - Can I see some of the [technical](role_type) roles?
-- Can I see some of the [tech](role_type:technical) roles?
-- Can I seeking [tech](role_type:technical) roles?
-- Do you have opening in [tech](role_type:technical)?
-- how about [tech](role_type:technical)?
-- show me [tech](role_type:technical) roles
+- Can I see some of the [tech]{"entity": "role_type", "value": "technical"} roles?
+- Can I seeking [tech]{"entity": "role_type", "value": "technical"} roles?
+- Do you have opening in [tech]{"entity": "role_type", "value": "technical"}?
+- how about [tech]{"entity": "role_type", "value": "technical"}?
+- show me [tech]{"entity": "role_type", "value": "technical"} roles
 - can i know about open positions?
 - [technical](role_type)
 - tell me about open positions
 - do you have any vacancies
-- [anything](role_type:any)
-- [anything](role_type:any) is fine
-- I am open to [anything](role_type:any)
+- [anything]{"entity": "role_type", "value": "any"}
+- [anything]{"entity": "role_type", "value": "any"} is fine
+- I am open to [anything]{"entity": "role_type", "value": "any"}
 - position
 - [any](roletype) role
 - [any](roletype)
